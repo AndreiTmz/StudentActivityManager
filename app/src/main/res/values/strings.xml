@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">ProiectDAM</string>
+    <string name="connect">Conectare</string>
+    <string name="email">E-mail</string>
+    <string name="password">Parola</string>
+    <string name="login_error_no_username">Introduceti e-mail</string>
+    <string name="login_error_no_password">Introduceti parola</string>
+    <string name="study_objects">Materii</string>
+    <string name="grades">Note</string>
+    <string name="teachers">Profesori</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="viewStudents">Vizualizare studenti</string>
+    <string name="lastName">Nume</string>
+    <string name="firstName">Prenume</string>
+    <string name="addUser">Adauga utilizator</string>
+    <string name="add_stud_error_no_last_name">Introduceti nume</string>
+    <string name="add_stud_error_no_first_name">Introduceti prenume</string>
+    <string name="add_stud_error_no_email">Introduceti e-mail valid</string>
+    <string name="studentDetails">Informatii student</string>
+    <string name="mark">Nota</string>
+    <string name="study_object">Materie</string>
+    <string name="viewDetails">Vizualizare detalii</string>
+    <string name="addMark">Adaugare nota</string>
+    <string name="addExam">Adaugare examen</string>
+    <string name="addObj">Adaugare materie</string>
+    <string name="info">Info</string>
+    <string name="projects">Proiecte</string>
+    <string name="exams">Examene</string>
+    <string name="phone">Telefon</string>
+    <string name="seminar">Seminar</string>
+    <string name="proiect">Proiect</string>
+    <string name="examen">Examen</string>
+    <string name="examGrades">Note examene</string>
+    <string name="projectGrades">Note proiecte</string>
+    <string name="labGrades">Note seminar</string>
+    <string name="grade">Nota:</string>
+    <string name="deleteStud">Sterge student</string>
+    <string name="delete">Sterge</string>
+    <string name="saveStudents">Salvare studenti</string>
+    <string name="viewGraphic">Grafic note</string>
+    <string name="settings">Setari</string>
+    <string name="newPass">Introduceti noua parola</string>
+    <string name="date">Data</string>
+    <string name="hour">Ora</string>
+    <string name="classroom">Sala</string>
+
+    <string-array name="roles">
+        <item>Student</item>
+        <item>Profesor</item>
+    </string-array>
+</resources>

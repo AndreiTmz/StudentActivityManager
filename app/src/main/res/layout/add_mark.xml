@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <EditText
+       android:id="@+id/etStudyObject"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textAlignment="center"
+       android:textSize="20sp"
+       android:hint="@string/study_object"
+       />
+
+
+    <EditText
+        android:id="@+id/markInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:hint="@string/mark"
+        android:textAlignment="center"
+        />
+    <RadioGroup
+        android:id="@+id/rgGradeType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" >
+        <RadioButton
+            android:id="@+id/rbSeminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seminar"
+            />
+        <RadioButton
+            android:id="@+id/rbProiect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/proiect"
+            />
+        <RadioButton
+            android:id="@+id/rbExamen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/examen"
+            />
+
+    </RadioGroup>
+</LinearLayout>

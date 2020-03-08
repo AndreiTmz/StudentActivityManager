@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_study"
+        android:icon="@drawable/ic_menu_study"
+        android:title="@string/labGrades"
+        />
+    <item
+        android:id="@+id/nav_projects"
+        android:icon="@drawable/ic_menu_projects"
+        android:title="@string/projectGrades"
+        />
+    <item
+        android:id="@+id/nav_exams"
+        android:icon="@drawable/ic_menu_grades"
+        android:title="@string/examGrades"
+        />
+    <item
+        android:id="@+id/nav_teachers"
+        android:icon="@drawable/ic_teachers"
+        android:title="@string/teachers">
+
+    </item>
+</menu>

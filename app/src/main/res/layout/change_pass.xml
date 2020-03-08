@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvNewPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/newPass"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20sp"/>
+    <EditText
+        android:id="@+id/etNewPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:hint="@string/password"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        />
+
+</LinearLayout>
